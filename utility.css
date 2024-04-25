@@ -1,0 +1,138 @@
+/*  ==== media query for navbar ====  */
+
+@media (max-width: 980px) {
+  .tx {
+    font-size: 15px;
+  }
+
+  .logo h3 {
+    font-size: 18px;
+  }
+
+  .option ul li {
+    display: block;
+    padding: 15px;
+  }
+
+  .visible1 {
+    opacity: 0;
+  }
+  .navigation {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in;
+  }
+
+  .navicon {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 40px;
+  }
+
+  .h-nav {
+    height: 50px !important;
+  }
+
+  .visible {
+    opacity: 1;
+  }
+}
+
+/* ======================================
+      media query for all devices
+====================================== */
+
+@media (min-width: 980px) and (max-width: 4000px) {
+  .navigation {
+    height: 50px !important;
+  }
+}
+@media (max-width: 500px) {
+  .bcol-1 {
+    padding: 19px;
+  }
+
+  .box2 {
+    flex-direction: column;
+  }
+
+  .h2 {
+    font-size: 20px;
+  }
+
+  .box2 img {
+    height: 50%;
+  }
+
+  .para h3 {
+    font-size: 18px;
+  }
+
+  .para p {
+    font-size: 12px;
+  }
+
+  .box {
+    height: 90px;
+    width: 92px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 1000px) {
+  .bcol-1 {
+    padding: 19px;
+  }
+
+  .box2 {
+    flex-direction: column;
+  }
+
+  .box2 img {
+    height: 50%;
+  }
+
+  .para h3 {
+    font-size: 18px;
+  }
+
+  .para p {
+    font-size: 12px;
+  }
+
+  .h2 {
+    font-size: 20px;
+  }
+
+  .box {
+    height: 90px;
+    width: 92px;
+  }
+}
+
+@media (min-width: 360px) {
+  .box {
+    height: 100px;
+    width: 39%;
+    gap: 1px !important;
+  }
+}
+
+@media (min-width: 980px) and (max-width: 1265px) {
+  .photo img {
+    margin-left: 21%;
+  }
+
+  .tx {
+    font-size: 30px;
+  }
+
+  .bcol-1 {
+    padding: 30px 168px;
+  }
+
+  
+}

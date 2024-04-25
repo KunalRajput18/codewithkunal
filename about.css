@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+25&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #000814;
+}
+
+html {
+  scrollbar-width: none;
+}
+
+.navigation {
+  height: 777px;
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  padding: 20px 0px;
+}
+
+.navigation {
+  height: 97vh;
+  backdrop-filter: blur(15px);
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 50px;
+  margin-top: 15px;
+}
+
+.background {
+  background-color: #000814;
+}
+
+.nav1 {
+  padding: 0 18px;
+  padding-top: 20px;
+}
+
+.logo h3 {
+  font-size: 20px;
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  margin-left: 15px;
+}
+
+.option ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 12px 20px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.option ul li a {
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+}
+
+.option ul li a:hover {
+  color: #ffc300;
+  border-bottom: 2px solid;
+}
+
+.navicon {
+  display: none;
+}
+
+/* about */
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  height: 60%;
+  width: 60%;
+  border: 4px solid #ffc300;
+  border-radius: 10px;
+ 
+}
+
+.about p {
+  color: rgb(255, 255, 255);
+  font-size: 23px;
+    line-height: 2.6rem;
+    padding: 35px 34px;
+    font-family:  "Ubuntu", sans-serif;
+  
+}
+
+
+@media (min-width : 200px) and (max-width : 980px) {
+    
+  .about {
+    height: 75%;
+    width: 85%;
+    overflow: scroll;
+    scrollbar-color: rgb(168, 159, 159);
+    scrollbar-width: thin;
+  }
+
+
+} 

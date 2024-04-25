@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+25&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  scrollbar-width: none;
+}
+
+.navigation {
+  height: 777px;
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  padding: 20px 0px;
+}
+
+.navigation {
+  height: 97vh;
+  backdrop-filter: blur(15px);
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 50px;
+  margin-top: 15px;
+}
+
+.background {
+  background-color: black;
+}
+
+.nav1 {
+  padding: 0 18px;
+  padding-top: 20px;
+}
+
+.logo h3 {
+  font-size: 20px;
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  margin-left: 15px;
+}
+
+.option ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 12px 20px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.option ul li a {
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+}
+
+.option ul li a:hover {
+  color: #ffc300;
+  border-bottom: 2px solid;
+}
+
+/* hero-section */
+
+.hero-sec {
+  height: auto;
+  width: auto;
+  background-color: black;
+  padding: 5% 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.m1 {
+  height: 500px;
+  width: 100%;
+  /* border: 2px solid; */
+}
+
+.text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.photo img {
+  height: 100%;
+  width: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 40%;
+}
+
+.tx {
+  font-size: 45px;
+  font-family: "Oswald", sans-serif;
+  cursor: pointer;
+}
+
+.tx span {
+  color: #219ebc;
+  margin-left: 5px;
+}
+
+/* section - 2 */
+
+.bcol-1 {
+  padding: 95px;
+  background-color: #000814;
+}
+
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col {
+  color: #ffc300;
+}
+
+.h2 {
+  font-size: 42px;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  border-bottom: 2px solid#ffc300;
+  padding-bottom: 10px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.images {
+  height: auto;
+  width: 71%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.box {
+  height: 200px;
+  width: 219px;
+  background-image: url("html5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 8px 12px;
+}
+
+.box:nth-child(2) {
+  background-image: url("css3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.box:nth-child(3) {
+  height: 8rem;
+  background-image: url("js3.png.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.box:nth-child(4) {
+  background-image: url("bootstrap2.png.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.box:nth-child(5) {
+  height: 10rem;
+  background-image: url("tailwind.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.box:nth-child(6) {
+  height: 10rem;
+  background-image: url("reactjs.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* section - 3 */
+
+.box2 {
+  height: 200px;
+  width: auto;
+  /* border: 2px solid; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.box2 img {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.para h3 {
+  font-size: 25px;
+  color: #ffc300;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.para p {
+  font-size: 15px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.box2:nth-child(2) img {
+  margin: 0rem 3.4rem;
+}
+
+/* Footer */
+
+.footer {
+  height: auto;
+  width: auto;
+  background-color: #000000;
+  border-top: 1px solid #ffc300;
+  padding: 10px 0px;
+}
+
+.flex3 {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#para {
+  font-size: 12px;
+  color: #ffc300;
+  font-weight: 600;
+  font-family: "Ubuntu", sans-serif ;
+}
+
+.ul {
+  width: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.ul li {
+  padding: 10px;
+  list-style-type: none;
+}
+
+.ul li a {
+  text-decoration: none;
+}
+
+.copy {
+  width: 100%;
+  text-align: center;
+}
+
+.burger {
+   height: auto;
+   width: auto;
+   border: 2px solid;
+   border-radius: 4px;
+   display: none;
+   position: absolute;
+   right: 5%;
+   top: 13px;
+   cursor: pointer;
+}
+
+.line {
+  height: 2.5px;
+  line-height: 5px;
+  width: 22px;
+  background-color: white;
+  margin: 4px;
+}
+
+.navicon{
+  display: none;
+}
+
+@media screen and (max-width : 980px){
+
+  .hero-sec{
+    flex-direction: column-reverse;
+  }
+
+  .photo img{
+    width: 58%;
+    margin-left: 23%;
+  }
+
+  .text {
+    flex-direction: column-reverse;
+  }
+
+  .m1{
+     height: 265%;
+  }
+
+  .tx{
+    font-size: 27px;
+    padding: 0px 11px;
+    margin-top: 10px;
+  }
+
+
+  /* secction-2 */
+
+   .images {
+     width: 95%;
+     flex-wrap: wrap;
+   }
+}
